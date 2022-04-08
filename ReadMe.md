@@ -1,8 +1,8 @@
 # Sobre o projeto
 
-Portfólio é uma aplicação criada para apresentar sobre minha trajetória até o momento. Desde dados pessoais, até meus projetos hospedados no GitHub.
+Portfólio é uma aplicação criada para apresentar minha trajetória até o momento. Desde dados pessoais, até meus projetos hospedados no GitHub.
 
-A aplicação foi baseado no desafio de portfólio proposto pela Rocketseat. Porém, foi adicionada algumas alterações para ter seu dierencial.
+A aplicação foi baseado no desafio de portfólio proposto pela Rocketseat. Porém, foi realizada algumas alterações para apresentar meu diferencial.
 
 # Layout
 Foram utilizados os display Grid e Flex para propocionar responsividade no site.
@@ -32,7 +32,8 @@ Caso queira utilizar este projeto, poderá está fazendo alterações direto no 
                 : item.language == "TypeScript" ? '#2b7489'
                 : '#f1e05a'
 ```
-    * Neste ponto você poderá modificar as linguagens adicionadas aqui e na tag select encontrada no index.html. Essas foram escolhidas, pois são as que mais estou estudando.
+
+* Neste ponto você poderá modificar as linguagens adicionadas aqui e na tag select encontrada no index.html. Essas foram escolhidas, pois são as que mais estou estudando.
 
 # Autor
 Marcos Fernando Soares Costa
