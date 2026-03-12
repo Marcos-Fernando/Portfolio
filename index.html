@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Oi, eu sou Marcos </title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="icon" href="icons/favicon.svg" type="image/x-icon">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+<canvas id="dna-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">// BIOINFO · MSc </div>
+  <div class="nav-links">
+    <a href="#about">SOBRE</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#academic">FORMAÇÃO</a>
+    <a href="#projects">PROJETOS</a>
+    <a href="#contact">CONTATO</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="hero-tag">MESTRE EM CIẼNCIA DA COMPUTAÇÃO</div>
+  <h1 class="hero-name">
+    Marcos<br>
+    <span class="line2">Costa</span>
+  </h1>
+  <p class="hero-sub">
+    Pesquisador em <span>Bioinformática</span> e Inteligência Computacional.<br>
+    Conectando algoritmos e biologia para entender a vida em código.
+  </p>
+  <div class="hero-ctas">
+    <a href="#projects" class="btn-primary">VER PROJETOS</a>
+    <a href="#contact" class="btn-ghost">ENTRAR EM CONTATO</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <p class="section-label">// 01 — SOBRE</p>
+    <h2 class="section-title">Quem sou eu</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        Olá, me chamo Marcos fernando Soares Costa, 
+        sou <span>Mestre em Ciência da Computação</span>, minha linha de pesquisar é Inteligência computacional com foco em Bioinformática.
+        Minhas pesquisas foca no <span>desenvolvimento de soluções computacionais</span>, criando
+        ferramentas e modelos que ajudam a compreender fenômenos moleculares, genômicos
+        e proteômicos com maior precisão e escalabilidade.
+      </p>
+      <p>
+        Além da pesquisa, tenho experiência prática com desenvolvimento web análise e
+        dados, construindo aplicações científicas de ponta a ponta.
+      </p>
+    </div>
+    <div class="stat-grid reveal">
+      <div class="stat-card">
+        <div class="stat-number">MSc</div>
+        <div class="stat-label">GRAU ACADÊMICO</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2+</div>
+        <div class="stat-label">PROJETOS ENTREGUES</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6+</div>
+        <div class="stat-label">TECNOLOGIAS</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">CRESCENDO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="reveal">
+    <p class="section-label">// 02 — HABILIDADES</p>
+    <h2 class="section-title">Stack técnico</h2>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-group reveal">
+      <div class="skill-group-title"> BIOINFORMÁTICA & DADOS </div>
+      <div class="skill-item">
+        <div class="skill-name">Python <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Pandas <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Numpy <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">BioPyhton <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">R <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+       <div class="skill-item">
+        <div class="skill-name"> Machine Learning <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group reveal">
+      <div class="skill-group-title">WEB</div>
+      <div class="skill-item">
+        <div class="skill-name">HTML / CSS <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">JavaScript <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">ReactJS <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Tailwind CSS <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">TypScript <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Flask <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group reveal">
+      <div class="skill-group-title">BANCO DE DADOS</div>
+      <div class="skill-item">
+        <div class="skill-name">SQL <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">PostgreSQL <span>Básico</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.35"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">MongoDB <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group reveal">
+      <div class="skill-group-title">ARMAZENAMENTO & AMBIENTE </div>
+      <div class="skill-item">
+        <div class="skill-name"> Docker <span> Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Singularity <span> Intermediário </span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Conda <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Github <span>Intermediário</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="0.65"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group reveal">
+      <div class="skill-group-title"> LINGUAGENS </div>
+      <div class="skill-item">
+        <div class="skill-name"> Português (Geral) <span> C1 </span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Inglês (Fala) <span> A1 </span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Inglês (Escuta) <span> A2 </span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Inglês (Escrita) <span> A1 </span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name"> Espanho (Geral) <span> A1</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACADEMIC -->
+<section id="academic">
+  <div class="reveal">
+    <p class="section-label">// 03 — FORMAÇÃO</p>
+    <h2 class="section-title">Jornada acadêmica</h2>
+  </div>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2026 — 20XX</div>
+      <div class="timeline-title">Doutorando em Ciência da Computação</div>
+      <div class="timeline-inst">Universidade Federal do Pará (UFPA) / Instituto de Ciências Exatas e Naturais (ICEN) — Belém, Brasil</div>
+      <div class="timeline-desc">
+        Pesquisa focada em Bioinformática com aplicação de algoritmos de IA para análise
+        de dados biológicos. Tese a definir.
+        Bolsista de CAPES.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2022 — 2025</div>
+      <div class="timeline-title">Mestre em Ciência da Computação</div>
+      <div class="timeline-inst">Universidade Federal do Pará (UFPA) / Instituto de Ciências Exatas e Naturais (ICEN) — Belém, Brasil</div>
+      <div class="timeline-desc">
+        Linha de pesquisa em Inteligência Computacional focada em Bioinformática com aplicação no desenvolvimento de uma ferramenta computacional voltada ao processo de detecção e anotação de elementos transponíveis em plantas. Dissertação sobre <span>[ EDTA-GUI: expandindo a anotação de elementos transponíveis do pipeline EDTA para genomas de plantas com o modo AnnoTEP e o banco público AnnoTEP-DB ]</span>.
+        Bolsista de CAPES.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-year">2017 — 2022</div>
+      <div class="timeline-title">Bacharelado em Sistemas da Informação </div>
+      <div class="timeline-inst">Universidade Federal do Pará (UFPA) — Castanhal, Brasil</div>
+      <div class="timeline-desc">
+        TCC sobre <span>[ RESPER: APLICAÇÃO MÓVEL ANDROID PARA RESERVA DE SALAS E AUDITÓRIOS PARA REUNIÕES E EVENTOS ]</span>.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-title">Formação Complementar</div>
+      <div class="timeline-year">2024</div>
+      <div class="timeline-inst"> Universidade Federal do Pará (UFPA) - Belém, Brasil.</div>
+      <div class="timeline-desc">
+        Machine Learning Crash: Hands-on with Python. (Carga horária: 24h).
+      </div>
+
+      <div class="timeline-year" style="margin-top: 2rem;">2016 - 2017 </div>
+      <div class="timeline-inst"> E.E.E.M. Agroindustrial Juscelino Kubitschek de Oliveira - Marituba, Brasil.</div>
+      <div class="timeline-desc">
+        Técnico em Informática. (Carga horária: 1640h).
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <p class="section-label">// 04 — PROJETOS</p>
+    <h2 class="section-title">O que construí</h2>
+  </div>
+
+  <div class="project-card reveal">
+    <div>
+      <div class="project-number">01 — BIOINFORMÁTICA</div>
+      <div class="project-title">EDTA-GUI</div>
+      <div class="project-desc">
+        Ferramenta capaz de realizar a anotação de elementos transponíveis em plntas, modelos e não-modelos. Capaz de trabalhar com elementos da Classe I e II, autônomos e não autônomos até o nível de linhagens. O pipeline possui dois modelos operacionais, um com interface gráfico e outro de linha de comando.
+      </div>
+      <div class="tech-tags">
+        <span class="tag">PYTHON</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JAVASCRIPT</span>
+        <span class="tag">FLASK</span>
+        <span class="tag">R</span>
+        <span class="tag">DOCKER</span>
+        <span class="tag">SINGULARITY</span>
+      </div>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Marcos-Fernando/EDTA-GUI" target="_blank" class="project-link">⌥ GITHUB</a>
+    </div>
+  </div>
+
+  <div class="project-card reveal">
+    <div>
+      <div class="project-number">02 — BIOINFORMÁTICA</div>
+      <div class="project-title">AnnoTEP-DB</div>
+      <div class="project-desc">
+        AnnoTEP-DB é um banco de dados genômico especializado em elementos transponíveis de plantas. Reúne dados pré-anotados de múltiplas espécies, eliminando a necessidade de reprocessamento e acelerando análises comparativas e funcionais em genômica vegetal.
+      </div>
+      <div class="tech-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JAVASCRIPT</span>
+        <span class="tag">SSH</span>
+      </div>
+    </div>
+    <div class="project-links">
+      <a href="https://plantgenomics.ncc.unesp.br/AnnoTEP-DB/" target="_blank" class="project-link">⌥ WEB</a>
+    </div>
+  </div>
+
+  <div class="project-card reveal" style="opacity:0.6;">
+    <div>
+      <div class="project-number">03 — EM DESENVOLVIMENTO</div>
+      <div class="project-title">Próximo Projeto</div>
+      <div class="project-desc">
+        EM BREVE
+      </div>
+      <div class="tech-tags">
+        <span class="tag">EM BREVE</span>
+      </div>
+    </div>
+    <div class="project-links">
+      <span class="wip-badge">// WIP</span>
+    </div>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <p class="section-label">// 05 — CONTATO</p>
+    <h2 class="section-title">Vamos conversar</h2>
+  </div>
+  <p class="contact-sub reveal">
+    Aberto a colaborações acadêmicas, projetos de pesquisa e oportunidades
+    na área de Bioinformática e Inteligência Artificial.
+  </p>
+  <div class="contact-links reveal">
+    <a href="mailto:marcosnandosc@gmail.com" class="contact-link">
+      <span>✉</span> marcosnandosc@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/marcos-costa-64684b1ab/" class="contact-link" target="_blank">
+      <span>in</span> LinkedIn
+    </a>
+    <a href="https://github.com/Marcos-Fernando" class="contact-link" target="_blank">
+      <span>⌥</span> GitHub
+    </a>
+    <a href="https://lattes.cnpq.br/0135541040353657" class="contact-link" target="_blank">
+      <span>◈</span> Lattes
+    </a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 — Marcos Fernando Soares Costa</span>
+  <span>BIOINFORMÁTICA · INTELIGÊNCIA COMPUTACIONAL</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
